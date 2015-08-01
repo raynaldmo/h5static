@@ -1,4 +1,4 @@
-/* style 1 - Two column float */
+/* style 1 - Two column responsive */
 
 /* 'Clearfix' stuff */
 
@@ -201,6 +201,7 @@ footer ul {
   color: #04648b;
 }
 
+/* desktop styles */
 @media (max-width: 930px) {
 
   nav {
@@ -246,12 +247,14 @@ footer ul {
 
 }
 
+/* tablet styles */
 @media (max-width: 730px) {
   .footer-1, .footer-2, .footer-3 {
     float: none;
   }
 }
 
+/* mobile styles */
 @media (max-width: 480px) {
   nav ul li {
     padding: 8px 4px;
@@ -260,7 +263,9 @@ footer ul {
 
   .media img {
     float: none;
-    max-width: 100%;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
   }
 
   .promo-desc h1 {
